@@ -116,7 +116,11 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
   color: #4d5ae5;
 }
 
@@ -208,6 +212,40 @@ body {
 }
 
 .team-item-subscribe {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.main-section {
+}
+
+.title-btn {
+}
+
+.main-btn {
+}
+
+.projects-list {
+}
+
+.projects-item {
+  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+  background-blend-mode: soft-light, normal;
+  mix-blend-mode: normal;
+}
+
+.projects-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.projects-item-subscribe {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
