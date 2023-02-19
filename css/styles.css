@@ -3,13 +3,14 @@
   --second-title-color: #2e2f42;
   --text-first-logo-btn: #4d5ae5;
   --text-adress-color: #434455;
-  --hover-focus-color: #4d5ae5;
+  --hover-focus-color: #404bbf;
   --text-subscribe-color: #434455;
+  --item-title-color: #2e2f42;
 }
 body {
+  font-family: Roboto, Raleway, sans-serif;
   background-color: white;
   color: rgb(46, 47, 66, 1);
-  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -39,8 +40,6 @@ body {
 }
 
 .logo-first {
-  width: 44px;
-  height: 24px;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -131,7 +130,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-adress-color);
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -146,11 +145,15 @@ body {
 }
 
 .hero-btn {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* .hero-btn: hover {
+  color: var(--hover-focus-color);
+} */
 
 .about-list {
 }
@@ -171,7 +174,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-subscribe-color);
 }
 
 .gallery {
@@ -219,13 +222,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-subscribe-color);
 }
 
 .main-section {
 }
 
-.title-btn {
+.main-title-hidden {
+  visibility: hidden;
 }
 
 .main-btn {
@@ -238,16 +242,17 @@ body {
   letter-spacing: 0.04em;
   color: var(--text-color-btn);
   cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
 }
 
-.main-btn:hover,
 .main-btn:focus {
-  color: var(--hover-focus-color);
+  background-color: var(--hover-focus-color);
+  color: white;
 }
 
-.main-btn:active {
-  background-color: #404bbf;
-  color: white;
+.main-btn:hover:not(:focus) {
+  color: var(--hover-focus-color);
 }
 
 .projects-list {
@@ -273,7 +278,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-subscribe-color);
 }
 
 .footer {
