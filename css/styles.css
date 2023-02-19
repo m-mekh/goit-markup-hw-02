@@ -26,7 +26,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--item-title-color);
   text-decoration: none;
 }
 
@@ -149,11 +149,13 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  color: white;
 }
 
-/* .hero-btn: hover {
-  color: var(--hover-focus-color);
-} */
+.hero-btn:focus {
+  background-color: var(--hover-focus-color);
+  color: white;
+}
 
 .about-list {
 }
@@ -166,7 +168,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--item-title-color);
 }
 
 .about-item-subscribe {
@@ -214,7 +216,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--item-title-color);
 }
 
 .team-item-subscribe {
@@ -270,7 +272,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--item-title-color);
 }
 
 .projects-item-subscribe {
