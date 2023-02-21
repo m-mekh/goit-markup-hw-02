@@ -221,11 +221,6 @@ body {
   background-color: var(--hover-focus-color);
   color: white;
 }
-/*
-.projects-list {
-  color: CORNFLOWER rgba(231, 233, 252, 1);
-}
-*/
 
 .projects-item-title {
   font-weight: 500;
