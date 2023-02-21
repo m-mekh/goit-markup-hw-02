@@ -46,7 +46,7 @@ body {
 
 .logo-second {
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--second-title-color);
 }
 
 .list {
