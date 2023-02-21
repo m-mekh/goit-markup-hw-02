@@ -233,12 +233,6 @@ body {
   color: CORNFLOWER rgba(231, 233, 252, 1);
 }
 
-.projects-item {
-  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
-  background-blend-mode: soft-light, normal;
-  mix-blend-mode: normal;
-}
-
 .projects-item-title {
   font-weight: 500;
   font-size: 20px;
