@@ -8,7 +8,7 @@
   --item-title-color: #2e2f42;
 }
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: 'Roboto', Raleway, sans-serif;
   background-color: white;
   color: rgb(46, 47, 66, 1);
 }
@@ -178,9 +178,6 @@ body {
 }
 
 .gallery-item {
-  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
-  background-blend-mode: soft-light, normal;
-  border: 1px solid #e7e9fc;
 }
 .team-company {
   font-weight: 700;
