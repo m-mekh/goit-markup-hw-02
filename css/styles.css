@@ -177,8 +177,6 @@ body {
   color: #2e2f42;
 }
 
-.gallery-item {
-}
 .team-company {
   font-weight: 700;
   font-size: 36px;
@@ -186,10 +184,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.team-list {
-  background: #f4f4fd;
 }
 
 .team-item-title {
