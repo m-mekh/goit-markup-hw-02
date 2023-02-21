@@ -169,6 +169,10 @@ body {
   color: #2e2f42;
 }
 
+.section-team {
+  background: #f4f4fd;
+}
+
 .team-company {
   font-weight: 700;
   font-size: 36px;
@@ -177,6 +181,10 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   background: #f4f4fd;
+}
+
+.team-item {
+  background: #ffffff;
 }
 
 .team-item-title {
